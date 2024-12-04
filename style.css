@@ -1,0 +1,65 @@
+*{
+    font-family: roboto;
+}
+.post{
+    background: white;
+	width: 500px;
+	height: 760px;
+	margin: auto;
+    border: 1px solid black;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.post-header{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: space-between;
+}
+#logo{
+    width: 5%;
+}
+#user-info{
+    width: 92%;
+    margin-left: 9px;
+}
+#user{
+    display: block;
+}
+#options{
+    width: 3%;
+}
+#options svg{
+    width: 8px;
+}
+.post-img img{
+    width: 100%;
+}
+.post-icons{
+    width: 100%;
+    display: flex;
+    padding: 10px 5px 0px 5px;
+    align-items: center;
+}
+.post-icons svg{
+    width: 30px;
+}
+#like{
+    width: 10%;
+}
+#comment{
+    width: 10%;
+}
+#share{
+    width: 72%;
+}
+#save{
+    width: 8%;
+}
+#save svg{
+    width: 25px;
+}
+.post-body{
+    padding: 10px;
+    padding-top: 0px;
+}
